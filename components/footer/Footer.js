@@ -37,13 +37,11 @@ const Footer = () => {
 							Контакты
 						</p>
 						<p>
-							<PhoneOutlined className='mr-3 rotate-90 text-lg' />
 							<a href='tel:80293293594' className=''>
 								+375 29 329-35-94
 							</a>
 						</p>
 						<p>
-							<PhoneOutlined className='mr-3 rotate-90 text-lg' />
 							<a href='tel:80445992814' className=''>
 								+375 44 599-28-14
 							</a>
@@ -122,7 +120,7 @@ const Footer = () => {
 				</div>
 
 				<div className='border-t border-black pt-2 mt-5'>
-					<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A13d355b7b6124a45cd861ddc1f20b9efe325c82dfae5574f3cb461828923912c&amp;source=constructor" width="100%" height="300" frameborder="0"></iframe>
+					<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A13d355b7b6124a45cd861ddc1f20b9efe325c82dfae5574f3cb461828923912c&amp;source=constructor" width="100%" height="300" frameBorder="0"></iframe>
 				</div>
 
 				<div
