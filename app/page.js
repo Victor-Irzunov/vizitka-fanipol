@@ -9,33 +9,41 @@ export default function Home() {
       <section className='container mx-auto relative min-h-[85vh] xz:pt-16 xs:pt-24'>
         <div className='w-full'>
           <div className='pt-20 text-white text-center'>
-            <h1 className='font-bold xx:text-5xl xz:text-4xl sd:text-6xl uppercase tracking-wider'>
-              <span className='xz:text-6xl sd:text-6xl xz:blok sd:inline'>Аренда </span>
-              фронтального погрузчика
+            <h1 className='xx:text-5xl xz:text-4xl sd:text-6xl uppercase tracking-wider'>
+              <span className='xz:text-3xl sd:text-5xl xz:blok sd:inline font-semibold'>Аренда </span>
+              <span className='xz:text-4xl sd:text-5xl xz:blok sd:inline font-bold'>
+                фронтального погрузчика
+              </span>
             </h1>
 
-            <p className='uppercase xx:text-base xz:text-base sd:text-xl mt-6 text-white'>
+            <p className='uppercase xx:text-base xz:text-base sd:text-xl mt-6 text-white tracking-widest'>
               Держинский район
             </p>
 
-            <ul className='mt-16 bg-black/40 text-white inline-block px-8 py-3 xz:text-lg sd:text-3xl'>
+            <ul className='sd:mt-16 xz:mt-10 bg-black/40 text-white inline-block px-8 w-[80vw] py-3 xz:text-lg sd:text-3xl'>
               <li className='mb-2 '>
                 Грузопъёмность <strong>5 тонн</strong>
               </li>
-              <li className='mb-4'>
+              <li className='mb-6'>
                 Объём ковша <strong>3 м<small>3</small></strong>
               </li>
-              <li className='mb-1'>
-                Режим работы:<br /> <strong>пн-вс 8:00-21:00</strong>
+              <li className='mb-1 uppercase text-sm'>
+                Режим работы:
               </li>
-              <li className='mb-2 uppercase'>
+              <li className='mb-1'>
+                <strong>пн-вс 8:00-21:00</strong>
+              </li>
+              <li className='mb-2 uppercase text-sm'>
                 Без выходных
+              </li>
+              <li className='mb-2 uppercase text-sm mt-10 font-semibold text-green-500'>
+              
+                  Наличный и безналичный расчёт
+              
               </li>
             </ul>
 
-            <p className='uppercase mt-10 text-2xl font-semibold text-white'>
-              Наличный и безналичный расчёт
-            </p>
+
           </div>
           <div className='absolute -bottom-20 right-8'>
             <Image src='/main/2.webp' alt='лучшая цена на аренду погрузчика' width={100} height={63} />
@@ -276,7 +284,7 @@ export default function Home() {
         </div>
 
         <p className="text-center xz:text-lg sd:text-3xl font-semibold text-white mt-32">
-          Нужен погрузчик? <br /> Свяжитесь с нами по номеру <br /> <a href="tel:80293293594" className="font-bold">☎{' '} +375 29 329-35-94</a> <br /> для заказа услуги фронтального погрузчика уже сегодня.
+          Нужен погрузчик? <br /> Свяжитесь с нами по номеру <br /> <a href="tel:80293293594" className="font-bold">☎{' '} +375 29 329-35-94</a> <br /> для заказа услуги фронтального погрузчика.
         </p>
       </section>
 

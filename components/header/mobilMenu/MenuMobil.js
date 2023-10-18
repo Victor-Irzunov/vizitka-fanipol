@@ -16,7 +16,8 @@ export const MenuMobil = ({ onClose }) => {
 
 	return (
 		<div className='h-full flex flex-col justify-between'>
-			<nav className='h-full pt-10'>
+
+			<nav className='pt-10'>
 				<ul className='h-full uppercase text-lg cursor-pointer'>
 					<li className='mb-5'>
 						<LinkScroll to='main'
@@ -70,6 +71,21 @@ export const MenuMobil = ({ onClose }) => {
 					</li>
 				</ul>
 			</nav>
+
+			<div className=''>
+				<div className='flex mb-3'>
+					<a href='tel:80293293594' className='text-xl mr-3'>
+						+375 29 329-35-94
+					</a>
+					<Image src='/a1.svg' alt='оператор А1' width={20} height={20} />
+				</div>
+				<div className='flex'>
+					<a href='tel:80445992814' className='text-xl mr-3'>
+						+375 44 599-28-14
+					</a>
+					<Image src='/a1.svg' alt='оператор А1' width={20} height={20} />
+				</div>
+			</div>
 
 			<div className=''>
 				<Image src='/logo/logo.webp' alt='логотип' width={200} height={50} />

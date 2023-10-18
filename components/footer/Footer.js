@@ -2,7 +2,6 @@
 import telegram from '../../public/social-icon/telegram.svg'
 import viber from '../../public/social-icon/viber.svg'
 import instagram from '../../public/social-icon/instagram.svg'
-import { PhoneOutlined, MailOutlined } from '@ant-design/icons'
 import { useScreens } from '@/constants/constants'
 import Image from 'next/image'
 import { Link as LinkScroll } from 'react-scroll'
